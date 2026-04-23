@@ -1,1 +1,2 @@
-
+Prompt para Persona B:
+"Actúa como desarrollador Senior. Siguiendo las reglas de Rules.md, crea un componente renderTabla(horarios) que reciba un array de objetos y devuelva una tabla HTML profesional. El componente debe ser una función pura."
