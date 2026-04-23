@@ -1,2 +1,5 @@
 Prompt para Persona B:
 "Actúa como desarrollador Senior. Siguiendo las reglas de Rules.md, crea un componente renderTabla(horarios) que reciba un array de objetos y devuelva una tabla HTML profesional. El componente debe ser una función pura."
+
+Prompt para Persona A:
+"Actúa como desarrollador Senior. Siguiendo las reglas de Rules.md (funciones puras, retorno de string HTML), crea un componente renderHeader(data) que reciba el nombre del colegio y un logo. No uses appendChild ni toques el DOM."
