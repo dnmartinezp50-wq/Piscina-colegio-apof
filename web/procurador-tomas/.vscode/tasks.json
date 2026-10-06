@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Vite: iniciar servidor",
+            "type": "shell",
+            "command": "npm.cmd",
+            "args": [
+                "run",
+                "dev",
+                "--",
+                "--host",
+                "127.0.0.1",
+                "--port",
+                "5173",
+                "--strictPort"
+            ],
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": ".*"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": ".*http://127\\.0\\.0\\.1:5173/.*"
+                }
+            }
+        }
+    ]
+}
